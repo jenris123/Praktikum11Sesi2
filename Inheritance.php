@@ -25,9 +25,9 @@ class Coba{
   }
   public function getRetrunLengkap(){ //Method
     $str = "Nama : {$this->name} {$this->marga} <br> Tempat Tanggal Lahir : {$this->tptlhr}/{$this->tgglhr}";  // object type
-    if ($this -> name == "Brian") {
+    if ($this -> name == "Jenris") {
       $str .= "<br>Hobi : {$this->hobby}";
-   }else if($this -> name == "Erika") {
+   }else if($this -> name == "David") {
       $str .= "<br>Jenis Kelamin : {$this->gender}";
    }
     return $str;
